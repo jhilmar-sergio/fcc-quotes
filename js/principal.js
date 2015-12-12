@@ -14,4 +14,8 @@ $(document).ready(function(){
    		$( "#contenido" ).html("\"" + quotes[indice] + "\"");
     });
 
+    $( "#enviarTwitter" ).click(function( event ) {
+       	$("#enviarT").children('a').html("<a href=\"https://twitter.com/share\" class=\"twitter-share-button"{count} data-text=\" " + quotes[indice] + "\" data-size="large" data-related="jhilmar_">Tweet</a>");
+    });
+
 });
